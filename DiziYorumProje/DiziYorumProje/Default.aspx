@@ -34,7 +34,7 @@
 				 <ul>
 					 <asp:Repeater ID="Repeater4" runat="server">
 						 <ItemTemplate>
-							 <li><a href="YorumDetay.Aspx?YORUMID=<%#Eval("YORUMID")%>"><%#Eval("KULLANICIADI")%> - <%#Eval("YORUMICERIK")%></a></li>
+							 <li><a href="#"><%#Eval("KULLANICIADI")%> - <%#Eval("YORUMICERIK")%></a></li>
 						 </ItemTemplate>
 					 </asp:Repeater>
 				 </ul>
